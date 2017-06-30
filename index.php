@@ -12,8 +12,27 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<link rel="stylesheet" href="assets/font-awesome-4.4.0/css/font-awesome.min.css">
+		<script type="text/javascript">
+		  window.mopub = [{
+			ad_unit: "c50add6aebf44ff3b472ae67497b974c",
+			ad_container_id: "ad", // Specify the div or container to which you’d like to the mobile web tag
+			ad_width: 320,
+			ad_height: 50,
+			keywords: "", // Optionally pass keywords as a comma separated list
+		  } ]; // To load additional ad units, add another object into the array.
+		  
+		  (function() {
+			var mopubjs = document.createElement("script");
+			mopubjs.async = true;
+			mopubjs.type = "text/javascript";
+			mopubjs.src = "//d1zg4cyg8u4pko.cloudfront.net/mweb/mobileweb.min.js";
+			var node = document.getElementsByTagName("script")[0];
+			node.parentNode.insertBefore(mopubjs, node);
+		  })();
+		</script>
 	</head>
 	<body>
+	<div id="ad"></div>
 	<div style="float:right"><a href="ve">Spanish</a></div>
 	<div class="wrapper style11 first" id="top">
 		<article class="container">
