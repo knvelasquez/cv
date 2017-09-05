@@ -178,7 +178,7 @@
 						</div>	
 				</div>
 			</div>	
-			__________
+			___________
 		</div>
 	</section>
 	<footer id="footer">
