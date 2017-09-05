@@ -178,8 +178,6 @@
 						</div>	
 				</div>
 			</div>	
-			_____________
-			<div>modificacion 2</div>
 		</div>
 	</section>
 	<footer id="footer">
