@@ -584,5 +584,5 @@
 
 	};
 
-})(jQuery);;;;
-//modificacion
+})(jQuery);
+//prueba
